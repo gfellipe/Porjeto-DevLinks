@@ -14,15 +14,3 @@ function toggleMode() {
     img.setAttribute("src", "assets/img/Avatar.png");
   }
 }
-
-// ha duas maneiras de fazer a troca
-
-//   1
-//   if (html.classList.contains("light")) {
-//     html.classList.remove("light");
-//   } else {
-//     html.classList.add("light");
-//   }
-
-//   2
-//   html.classList.toggle("light");
